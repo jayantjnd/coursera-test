@@ -1,0 +1,120 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	font-size: 1.75em;
+}
+
+body{
+	padding: 0px;
+}
+
+@media (min-width: 992px){
+	div{
+		width: 32.8%;
+		border: 1px solid black;
+		float: left;
+		margin: 2px;
+		background-color: lightgrey;
+	}
+
+	span{
+		width: 32.8%;
+		border: 1px solid black;
+		float: left;
+		margin: 2px;
+		background-color: lightgrey;
+	}
+
+	p{
+		position: relative;
+		left: 60%;
+		top: 0%;
+		width: 40%;
+		border: 1px solid black;
+		padding: 2px;
+		text-align: center;
+		margin-top: 0px;
+		background-color: pink;
+		font-size: 1.25em;
+	}
+	section{
+		width: 100%;
+		padding: 8px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 991px){
+	div{
+		width: 49%;
+		border: 1px solid black;
+		float: left;
+		margin: 2px;
+		background-color: lightgrey;
+	}
+
+	span{
+		width: 98.5%;
+		border: 1px solid black;
+		float: left;
+		margin: 2px;
+		background-color: lightgrey;
+	}
+
+	p{
+		position: relative;
+		left: 60%;
+		top: 0%;
+		width: 40%;
+		border: 1px solid black;
+		padding: 2px;
+		text-align: center;
+		margin-top: 0px;
+		background-color: pink;
+		font-size: 1.25em;
+	}
+	section{
+		width: 100%;
+		padding: 4px;
+	}
+}
+
+@media (max-width: 768px){
+	div{
+		width: 99%;
+		border: 1px solid black;
+		float: left;
+		margin: 2px;
+		background-color: lightgrey;
+	}
+
+	span{
+		width: 99%;
+		border: 1px solid black;
+		float: left;
+		margin: 2px;
+		background-color: lightgrey;
+	}
+
+	p{
+		position: relative;
+		left: 60%;
+		top: 0%;
+		width: 40%;
+		border: 1px solid black;
+		padding: 2px;
+		text-align: center;
+		margin-top: 0px;
+		background-color: pink;
+		font-size: 1.25em;
+	}
+	section{
+		width: 100%;
+		padding: 4px;
+	}
+}
+
+
+
